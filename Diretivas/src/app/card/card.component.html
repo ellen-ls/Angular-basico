@@ -1,0 +1,25 @@
+<h1>My card</h1>
+<ul>
+    <li *ngFor="let p of produtos; let i=index" (click)="remover(i)">
+       {{i}} - {{p}}        
+    </li>
+</ul>
+<button (click)="adicionar()">Adicionar</button>
+<div [ngSwitch]="meuType">
+    <div *ngSwitchDefault="'user'">
+        <li>editar perfil</li>
+        <li>adicionar cartao</li>
+    </div>
+    <div *ngSwitchCase="'adm'">
+        <li>editar perfil</li>
+        <li>adicionar cartao</li>
+        <li>gerenciar usuarios</li>
+    </div>
+    <div *ngSwitchCase="'superUser'">
+        <li>editar perfil</li>
+        <li>adicionar cartao</li>
+        <li>gerenciar usuarios</li>
+        <li>gerenciar adms</li>
+    </div>
+</div>
+
