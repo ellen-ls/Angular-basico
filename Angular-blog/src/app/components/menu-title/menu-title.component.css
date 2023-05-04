@@ -1,0 +1,11 @@
+.menu-title-container h1{
+    margin: 15px;
+    font-size: 135px;
+    display: flex;
+    justify-content: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+
+.menu-title-container hr{
+ margin: 5px 0 5px 0;
+} 
