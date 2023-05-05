@@ -1,5 +1,5 @@
 .big-card-container{
-    width: 35%;
+   
     margin-left: 10px;
     margin-right: 10px;
     padding: 0 20px 20px 20px;
@@ -9,7 +9,7 @@
 
 }
 .big-card-img img{
-    width: 100%;
+    width: 400px;
     
   
 }
