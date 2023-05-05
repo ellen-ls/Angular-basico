@@ -1,6 +1,6 @@
 .menu-title-container h1{
-    margin: 15px;
-    font-size: 135px;
+    margin: 2rem;
+    font-size: 10rem;
     display: flex;
     justify-content: center;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
@@ -9,3 +9,10 @@
 .menu-title-container hr{
  margin: 5px 0 5px 0;
 } 
+
+@media screen and (max-width:600px) {
+    .menu-title-container h1{
+    
+     font-size: 4rem;
+    }
+}

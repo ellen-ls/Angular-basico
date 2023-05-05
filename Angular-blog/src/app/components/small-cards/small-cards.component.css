@@ -18,3 +18,21 @@
 hr{
     margin: 10px 0 10px 0;
 }
+
+@media screen and (max-width:600px) {
+
+    .small-card-container-content{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .small-card-photo img{
+       
+        width: 5rem;
+        
+       }
+
+    .small-card-title h1{
+        font-size: 1rem;
+    }
+}
